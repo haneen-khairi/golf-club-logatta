@@ -1,0 +1,119 @@
+/* Tooltips */
+.trx_addons_tooltip {
+	border-bottom-style: solid;
+}
+.trx_addons_tooltip:before {
+	font-size:1em;
+	line-height:1.3em;
+	padding: 0.29em 1em;
+	-webkit-transform:translateX(-50%);
+	    -ms-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	-webkit-border-radius: 0 !important;
+	    -ms-border-radius: 0 !important;
+			border-radius: 0 !important;
+}
+.trx_addons_tooltip:after {
+	margin-bottom:-8px;
+	-webkit-transform:none;
+	    -ms-transform:none;
+	        transform:none;
+}
+
+
+/* Dropcaps */
+.trx_addons_dropcap {
+	padding: 0;
+	margin: 0.25em 0.5em 0 0;
+	width: 4.118rem;
+	height: 4.118rem;
+	line-height: 3.918rem;
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	border-radius: 0;
+	font-family: "Playfair Display";
+	font-size: 2.824rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.scheme_default .trx_addons_dropcap_style_1 {
+	background-image: linear-gradient(217deg, rgba(163, 197, 182, 0.2) 0%, rgba(163, 197, 182, 0) 100%);
+}
+
+/* Tiny text */
+.trx_addons_tiny_text {
+	letter-spacing:2px;
+}
+
+/* Lists */
+.trx_addons_list_parameters > li > strong,
+.trx_addons_list_parameters > li > em {
+	color:inherit;
+}
+.trx_addons_list_parameters > li > em {
+	font-family:inherit;
+}
+
+/*Lists*/
+ul[class*="trx_addons_list_success"] > li:before {
+	color: #ddba5f !important;
+}
+li {
+	position: relative;
+}
+ul.trx_addons_list_success > li:before, ul.trx_addons_list_error > li:before, ul.trx_addons_list_plus > li:before, ul.trx_addons_list_minus > li:before {
+	left: -2em !important;
+}
+ul[class*="trx_addons_list_success"] > li:before {
+	font-size: 0.706rem !important;
+}
+ul[class*="trx_addons_list_dot"] > li:before {
+	font-size: 1.2rem !important;
+}
+
+/*Buttons*/
+.sc_button:not(.sc_button_simple) {
+	padding: 0.8rem 2.9rem 1rem;
+}
+
+/*Recent Posts*/
+.widget_area .post_item .post_thumb, aside .post_item .post_thumb {
+	width: 5.418em;
+	height: 4.418em;
+	margin: 0 1.1em 4px 0;
+}
+.widget.widget_recent_posts .widget_title, .widget.widget_recent_posts .widgettitle {
+	margin-bottom: 1.7rem;
+}
+
+/*Comments*/
+#recentcomments li {
+	 font-family: "Source Sans Pro";
+	 font-size: 1rem;
+	 line-height: 1.529rem;
+	 text-transform: none;
+	 margin-bottom: 1.55rem;
+}
+#recentcomments li:last-child {
+	margin-bottom: 0;
+}
+#recentcomments li:before {
+	content: '\E946';
+	font-family: fontello;
+	display: block;
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: -1.1em;
+	top: 0;
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	border-radius: 0;
+	background-color: transparent !important;
+	color: #9a9a9a;
+}
+
+/*Sidebar*/
+.sidebar .sidebar_inner {
+	padding-bottom: 3.5rem;
+}
